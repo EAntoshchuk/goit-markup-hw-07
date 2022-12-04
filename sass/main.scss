@@ -1,10 +1,21 @@
-@import "variables";
+@import "./utils/variables";
+@import "./utils/vissually-hidden";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
 @import "./base/base-styles";
-@import "reset";
-@import "./header";
-@import "./hero";
-@import "./about-us";
-@import "";
-@import "clients";
-@import "footer";
-@import "modal-window";
+@import "./base/reset";
+@import "./base/card-set";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about-us";
+@import "./layout/cases";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/socials";
+@import "./layout/buttons";
+@import "./layout/portfolio-menu";
+@import "./layout/gallery";
+@import "./layout/footer";
+@import "./layout/modal-window";
